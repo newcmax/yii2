@@ -6,9 +6,9 @@ use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
-use app\modules\main\models\LoginForm;
+use app\models\LoginForm;
 use app\models\ContactForm;
-//use app\modules\users\models\Dictonary;
+
 
 class SiteController extends Controller
 {

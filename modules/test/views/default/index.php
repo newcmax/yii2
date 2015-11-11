@@ -3,7 +3,7 @@
 use app\components\FirstWidget;
 use app\components\SecondWidget;
 use yii\bootstrap\Modal;
-
+use yii\jui\DatePicker;
 ?>
 <div class="test-default-index">
 
@@ -31,7 +31,15 @@ use yii\bootstrap\Modal;
     <?php
     $value = date('d.m.Y');
 
-    yii\jui\DatePicker::widget(['name' => 'attributeName', 'clientOptions' => ['defaultDate' => $value]]);
+    echo DatePicker::widget([
+        'language' => 'ru',
+        'name'  => 'from_date',
+        'clientOptions' => [
+            'dateFormat' => 'd.m.Y',
+            'dateDefault' => '21.06.1977',
+        ],
+    ]
+    );
     ?>
 
 
