@@ -2,7 +2,6 @@
 
 use app\components\FirstWidget;
 use app\components\SecondWidget;
-use yii\bootstrap\
 use yii\bootstrap\Modal;
 
 ?>
@@ -32,14 +31,7 @@ use yii\bootstrap\Modal;
     <?php
     $value = date('d.m.Y');
 
-     DatePicker::widget
-    ([
-
-             'name'  => 'from_date',
-             'value'  => $value,
-
-            ]
-    );
+    yii\jui\DatePicker::widget(['name' => 'attributeName', 'clientOptions' => ['defaultDate' => $value]]);
     ?>
 
 
