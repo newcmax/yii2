@@ -2651,13 +2651,13 @@ $cfg['AvailableCharsets'] = array(
 /*******************************************************************************
  * Customization & design
  *
- * The graphical settings are now located in themes/theme-name/layout.inc.php
+ * The graphical settings are now located in themes/theme-name/layouts.inc.php
  */
 
 /**
  * enable the left panel pointer
  * see also LeftPointerColor
- * in layout.inc.php
+ * in layouts.inc.php
  *
  * @global boolean $cfg['NavigationTreePointerEnable']
  */
@@ -2666,7 +2666,7 @@ $cfg['NavigationTreePointerEnable'] = true;
 /**
  * enable the browse pointer
  * see also BrowsePointerColor
- * in layout.inc.php
+ * in layouts.inc.php
  *
  * @global boolean $cfg['BrowsePointerEnable']
  */
@@ -2675,7 +2675,7 @@ $cfg['BrowsePointerEnable'] = true;
 /**
  * enable the browse marker
  * see also BrowseMarkerColor
- * in layout.inc.php
+ * in layouts.inc.php
  *
  * @global boolean $cfg['BrowseMarkerEnable']
  */

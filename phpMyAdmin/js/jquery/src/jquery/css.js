@@ -388,7 +388,7 @@ if ( !support.opacity ) {
 				opacity = jQuery.isNumeric( value ) ? "alpha(opacity=" + value * 100 + ")" : "",
 				filter = currentStyle && currentStyle.filter || style.filter || "";
 
-			// IE has trouble with opacity if it does not have layout
+			// IE has trouble with opacity if it does not have layouts
 			// Force it by setting the zoom level
 			style.zoom = 1;
 

@@ -38,18 +38,26 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
-            ['label' => 'Категории', 'url' => ['/category/index']],
-            ['label' => 'Справочники', 'url' => ['/test/default/index']],
+            [
+                'label'=>'Категории',
+                'items'=>[
+                    [
+                        'label'=>'Ссылка1',
+                        'url'=>['#']
+                    ],
+                    '<li class="divider"></li>',
+                    '<li class="dropdown-header">Описание</li>',
+                    [
+                        'label'=>'Просмотр',
+                         'url'=>['category/index']
 
-            Yii::$app->user->isGuest ?
-                ['label' => 'Login', 'url' => ['/site/login']] :
-                [
-                    'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
-                    'url' => ['/site/logout'],
-                    'linkOptions' => ['data-method' => 'post']
-                ],
+
+                    ],
+
+                ]
+            ],
+
+
         ],
     ]);
     NavBar::end();

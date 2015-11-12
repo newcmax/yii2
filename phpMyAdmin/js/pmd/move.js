@@ -8,7 +8,7 @@
  */
 
 
-var _change = 0; // variable to track any change in designer layout.
+var _change = 0; // variable to track any change in designer layouts.
 var _staying = 0; //  variable to check if the user stayed after seeing the confirmation prompt.
 var show_relation_lines = true;
 var always_show_text = false;

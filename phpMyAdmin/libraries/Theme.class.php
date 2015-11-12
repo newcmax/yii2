@@ -187,14 +187,14 @@ class PMA_Theme
     }
 
     /**
-     * returns layout file
+     * returns layouts file
      *
      * @access public
-     * @return string layout file
+     * @return string layouts file
      */
     public function getLayoutFile()
     {
-        return $this->getPath() . '/layout.inc.php';
+        return $this->getPath() . '/layouts.inc.php';
     }
 
     /**

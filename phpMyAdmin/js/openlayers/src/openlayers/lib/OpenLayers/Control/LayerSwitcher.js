@@ -168,7 +168,7 @@ OpenLayers.Control.LayerSwitcher =
     draw: function() {
         OpenLayers.Control.prototype.draw.apply(this);
 
-        // create layout divs
+        // create layouts divs
         this.loadContents();
 
         // set mode to minimize

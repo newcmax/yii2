@@ -399,7 +399,7 @@ class PMA_Theme_Manager
         $GLOBALS['pmaThemeImage']   = $this->theme->getImgPath();
 
         /**
-         * load layout file if exists
+         * load layouts file if exists
          */
         if (file_exists($this->theme->getLayoutFile())) {
             include $this->theme->getLayoutFile();

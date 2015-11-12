@@ -3842,7 +3842,7 @@ var toggleButton = function ($obj) {
     var imgw = $('img', $obj).width();
     var tblw = $('table', $obj).width();
     var offset = parseInt(((imgw - tblw) / 2), 10);
-    // Move the background to match the layout of the top layer
+    // Move the background to match the layouts of the top layer
     $obj.find('img').css(right, offset);
     /**
      *  var  offw    Outer width of the "ON" part of the toggle switch

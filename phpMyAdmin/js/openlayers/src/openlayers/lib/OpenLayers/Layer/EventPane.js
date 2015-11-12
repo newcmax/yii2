@@ -142,7 +142,7 @@ OpenLayers.Layer.EventPane = OpenLayers.Class(OpenLayers.Layer, {
      * If we can't load the map lib, then display an error message to the 
      *     user and tell them where to go for help.
      * 
-     *     This function sets up the layout for the warning message. Each 3rd
+     *     This function sets up the layouts for the warning message. Each 3rd
      *     party layer must implement its own getWarningHTML() function to 
      *     provide the actual warning message.
      */

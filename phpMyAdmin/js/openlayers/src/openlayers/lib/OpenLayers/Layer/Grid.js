@@ -303,7 +303,7 @@ OpenLayers.Layer.Grid = OpenLayers.Class(OpenLayers.Layer.HTTPRequest, {
 
     /** 
      * Method: calculateGridLayout
-     * Generate parameters for the grid layout. This  
+     * Generate parameters for the grid layouts. This
      *
      * Parameters:
      * bounds - {<OpenLayers.Bound>}

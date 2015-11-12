@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c9f2cfd6c29c4826066867299426701c",
-    "content-hash": "f3ed702cc1f39ab5760c2612224b0ad0",
+    "hash": "66d23ac0f33fb0f3290b6bc61fd6d6a5",
+    "content-hash": "7385115cdcec4cfb600e3db343a61af4",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -423,6 +423,48 @@
                 "mailer"
             ],
             "time": "2015-06-06 14:19:39"
+        },
+        {
+            "name": "timurmelnikov/yii2-panel-menu",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TimurMelnikov/yii2-panel-menu.git",
+                "reference": "dbe473473d36b0d7171391198ac13149199f06fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TimurMelnikov/yii2-panel-menu/zipball/dbe473473d36b0d7171391198ac13149199f06fa",
+                "reference": "dbe473473d36b0d7171391198ac13149199f06fa",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0",
+                "yiisoft/yii2-bootstrap": "~2.0.3"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "timurmelnikov\\widgets\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Timur Melnikov",
+                    "email": "melnikovt@gmail.com"
+                }
+            ],
+            "description": "Вертикальное меню bootstrap",
+            "keywords": [
+                "bootstrap",
+                "menu",
+                "yii2"
+            ],
+            "time": "2015-05-30 08:25:13"
         },
         {
             "name": "yiidoc/yii2-datepicker",

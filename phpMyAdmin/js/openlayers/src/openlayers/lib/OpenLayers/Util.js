@@ -326,7 +326,7 @@ OpenLayers.Util.createImage = function(id, px, sz, imgURL, position, border,
  *     <OpenLayers.Util.modifyAlphaImageDiv>
  * 
  * Set the opacity of a DOM Element
- *     Note that for this function to work in IE, elements must "have layout"
+ *     Note that for this function to work in IE, elements must "have layouts"
  *     according to:
  *     http://msdn.microsoft.com/workshop/author/dhtml/reference/properties/haslayout.asp
  *
@@ -1571,7 +1571,7 @@ OpenLayers.Util.getBrowserName = function() {
 /**
  * Method: getRenderedDimensions
  * Renders the contentHTML offscreen to determine actual dimensions for
- *     popup sizing. As we need layout to determine dimensions the content
+ *     popup sizing. As we need layouts to determine dimensions the content
  *     is rendered -9999px to the left and absolute to ensure the 
  *     scrollbars do not flicker
  *     

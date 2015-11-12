@@ -158,7 +158,7 @@ echo PMA_displayFormTop(
 );
 echo '<div class="form">';
 if ($cf->getServerCount() > 0) {
-    echo '<table cellspacing="0" class="datatable" style="table-layout: fixed">';
+    echo '<table cellspacing="0" class="datatable" style="table-layouts: fixed">';
     echo '<tr>';
     echo '<th>#</th>';
     echo '<th>' . __('Name') . '</th>';

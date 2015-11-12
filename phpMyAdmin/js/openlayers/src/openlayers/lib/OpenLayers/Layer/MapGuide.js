@@ -451,7 +451,7 @@ OpenLayers.Layer.MapGuide = OpenLayers.Class(OpenLayers.Layer.Grid, {
     
     /** 
      * Method: calculateGridLayout
-     * Generate parameters for the grid layout. This  
+     * Generate parameters for the grid layouts. This
      *
      * Parameters:
      * bounds - {<OpenLayers.Bound>}

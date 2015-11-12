@@ -458,7 +458,7 @@ $js_messages['strSelectForeignKey'] = __('Select Foreign Key');
 $js_messages['strPleaseSelectPrimaryOrUniqueKey'] = __('Please select the primary key or a unique key!');
 $js_messages['strChangeDisplay'] = __('Choose column to display');
 $js_messages['strLeavingDesigner'] = __(
-    'You haven\'t saved the changes in the layout. They will be lost if you'
+    'You haven\'t saved the changes in the layouts. They will be lost if you'
     . ' don\'t save them. Do you want to continue?'
 );
 $js_messages['strPageName'] = __('Page name');

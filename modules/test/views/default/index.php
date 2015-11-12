@@ -4,11 +4,44 @@ use app\components\FirstWidget;
 use app\components\SecondWidget;
 use yii\bootstrap\Modal;
 use yii\jui\DatePicker;
+use yii\bootstrap\Nav;
 ?>
 <div class="test-default-index">
 
     <h1>Панель управления.</h1>
 
+    <?=
+    Nav::widget([
+        'items'=>[
+            [
+                'label'=>'Ссылка1',
+                'url'=>['#']
+            ],
+            [
+                'label'=>'Ссылка2',
+                'url'=>['#']
+            ],
+            [
+                'label'=>'Выпадающий список',
+                'items'=>[
+                    [
+                        'label'=>'Ссылка1',
+                        'url'=>['#']
+                    ],
+                    '<li class="divider"></li>',
+                    '<li class="dropdown-header">Описание</li>',
+                    [
+                        'label'=>'Ссылка2',
+                        'url'=>['#']
+                    ],
+
+                ]
+            ],
+        ],
+
+
+    ]);
+    ?>
     <?= FirstWidget::widget(
         [
             'a' => 33,

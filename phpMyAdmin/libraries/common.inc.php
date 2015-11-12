@@ -732,7 +732,7 @@ $GLOBALS['pmaThemePath']    = $_SESSION['PMA_Theme']->getPath();
 $GLOBALS['pmaThemeImage']   = $_SESSION['PMA_Theme']->getImgPath();
 
 /**
- * load layout file if exists
+ * load layouts file if exists
  */
 if (@file_exists($_SESSION['PMA_Theme']->getLayoutFile())) {
     include $_SESSION['PMA_Theme']->getLayoutFile();
